@@ -13,10 +13,19 @@
         <h1>Piłka nożna</h1>
         
     </div>
+    <div id="nav">
+        <a href="index.php">Strona główna</a>
+        <a href="aboutme.php">O mnie</a>
+    </div>
     <div id="section">
-        <div id="lew">
-            <img src="pilka.jpg" alt="piłeczka" id="pileczka">
-        </div>
+    <div class="container">
+    <div class="wrapper">
+            <img src="dom.jpg">
+            <img src="https://images6.alphacoders.com/462/thumb-1920-462371.jpg">
+            <img src="https://images5.alphacoders.com/343/thumb-1920-343645.jpg">
+            <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg">
+          </div>
+    </div>
    
         <div id="praw">
            <?php  dane() ?>

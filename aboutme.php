@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     
-    <title>Piłka nożna</title>
+    <title>o mnie</title>
 </head>
 <body>
     <div id="header">
@@ -14,25 +14,19 @@
         
     </div>
     <div id="nav">
-        <img id="logo" alt="logo" src="logo.png">
-        <a href="index.html">Strona główna</a>   
-      
-        <a href="aboutme.html">O mnie</a>
+        <a href="index.php">Strona główna</a>
+        <a href="aboutme.php">O mnie.</a>
     </div>
     <div id="section">
-       <div class="container">
-        <div class="wrapper">
-            <img src="dom.jpg">
-            <img src="https://images6.alphacoders.com/462/thumb-1920-462371.jpg">
-            <img src="https://images5.alphacoders.com/343/thumb-1920-343645.jpg">
-            <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg">
-          </div>
+      
+<p>Chory jestem nie chce mi się nic tu wymyślić.gif</p>
+
+
+
     </div>
    
-        <div id="praw">
-           <?php  dane() ?>
-        </div>
-    </div>
+       
+    
     
     <footer>
         <b>Bartłomiej Cholewiński 2pt</b><a href="https://www.facebook.com/bartek.cholewinski.54" target="blank"><img src="ikona.jpg" alt="prof" id="ikona"></a>

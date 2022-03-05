@@ -9,16 +9,23 @@ body{
 }
 #header{
     text-align: center;
-    height: 20vh;
+    height: 13vh;
     font-size: 20px;
     letter-spacing: 6px;
 }
 #section{
     height: 70vh;
 }
-#lew   {
-    float: left;
-    width:50% ;
+#nav{
+    text-align: center;
+    height: 3vh;
+    font-size: 20px;
+    background-color: rgb(43, 42, 42);
+    margin-bottom: 5vh;
+}
+#logo{
+    width: 24px;
+    height: 24px;
     
 }
 #praw{
@@ -60,4 +67,54 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .container{
+   
+    float: left;
+    width:50% ;
+    
+   
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
 
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+.container  img{
+width: 100%;
+}
+#nav a {
+    text-decoration: none;
+    color: rgb(16, 161, 197);
+    margin-right: 30px;
+ }
